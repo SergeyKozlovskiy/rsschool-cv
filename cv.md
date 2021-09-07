@@ -7,6 +7,7 @@
 **Skipe:** zavulon911
 
 ## About me
+<<<<<<< HEAD
 I received my first order for layout in 2018. Having completed it, he received a permanent customer and began to actively study the IT world.
 Realizing the need for comprehensive training, he completed a powerful web development intensive in 2018.
 At the same time, he carried out layout orders. In 2019, he took courses in JS. In 2020 I started practicing in React, but
@@ -67,3 +68,5 @@ glo academy javascript
 
 
 
+=======
+>>>>>>> b4b9af1 (feat: add contacts)
