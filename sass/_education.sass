@@ -1,0 +1,32 @@
+.education
+    &__block
+        position: relative
+        padding-left: 25px
+        &::after
+            position: absolute
+            content: ''
+            height: 100%
+            width: 2px
+            background-color: $mainColor
+            top: 0
+            left: 0
+            border-radius: 50px
+            z-index: 1
+        &_web
+            position: relative
+            margin-bottom: 20px
+            &::after
+                position: absolute
+                content: ''
+                height: 15px
+                width: 15px
+                background-color: white
+                border-radius: 50px
+                border: 2px solid $mainColor
+                top: 0
+                left: -31px
+                z-index: 10
+            &-header
+                text-transform: uppercase
+                font-weight: 700
+                color: $mainColor

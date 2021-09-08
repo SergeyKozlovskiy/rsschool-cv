@@ -1,0 +1,87 @@
+main
+    position: relative
+    width: 100%
+    height: 482px
+    z-index: 10
+    background-color: grey
+.profile
+    padding-top: 90px
+    &__name
+        margin-top: 40px
+        margin-bottom: 0
+        font-size: 44px
+        font-family: $rob_mono
+        color: white
+    &__work, &__contacts
+        color: white
+        margin-top: 8px
+        font-size: 16px  
+    &__img
+        margin-top: 50px
+        width: 90%
+        height: 380px
+        border-radius: 5px  
+        border: 1px solid black
+    &__contacts
+        margin-top: 30px
+        font-size: 16px 
+        table
+            border-spacing: 0px 17px
+            tr     
+                td
+                    &:nth-child(odd)
+                        text-transform: uppercase
+                        opacity: 0.5 
+                    &:nth-child(even)
+                        padding-left: 20px   
+.contact-icon 
+    opacity: 1 !important
+    padding-left: 0 !important
+    width: 50px !important
+    &s
+        width: 40px
+        height: 40px
+
+@media (max-width: 991px)
+    .profile
+        &__img
+            width: 100%
+        &__name
+            font-size: 40px     
+@media (max-width: 991px) 
+    menu
+        margin-top: 35px              
+    .profile
+        &__img
+            margin-top: 10px
+            height: 316px 
+        &__name
+            font-size: 34px
+            margin-top: 0px 
+        &__contacts
+            margin-top: 0px                                
+    .profile__contacts table
+        border-spacing: 0 15px
+@media (max-width: 576px)
+    menu 
+        ul 
+            li 
+                a
+                    font-size: 12px
+                    font-weight: 300
+    main
+        height: 100% 
+    .profile
+        &__name
+            font-size: 30px
+        &__img
+            display: none
+    .contact-icon
+        width: 35px !important
+        &s
+            width: 25px
+            height: 25px 
+@media (max-width: 480px) 
+    .profile  
+        padding-top: 50px
+
