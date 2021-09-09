@@ -65,3 +65,9 @@ glo academy Web - developer
 glo academy javascript
 
 ## English A2
+<<<<<<< HEAD
+
+
+
+=======
+>>>>>>> 28281eb3bc20863be4fa759cbb9d59b914570b76

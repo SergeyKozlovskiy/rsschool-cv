@@ -18,16 +18,15 @@
             text-transform: uppercase
             font-family: $rob_mono
             font-weight: 600
-            color: white
             a
-                color: white
+                color: $colorText
                 text-decoration: none
                 cursor: pointer
                 transition: 0.2s
                 padding-right: 10px
                 letter-spacing: 0.5px
                 &:hover
-                    color: #82cdcc
+                    transform: scale(1.1)
 .active-link
     position: relative
     &::after
@@ -39,13 +38,8 @@
         right: 0px
         background-color: #82cdcc
 .menu__2
-    background-color: white
+    background-color: rgba(172, 195, 139, 0.9)
     transition: 0.3s
-    ul
-        li
-            color: $mainColor
-            a
-                color: $mainColor
 @media (max-width: 480px)
     .menu
         padding-left: 0
