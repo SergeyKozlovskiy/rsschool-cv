@@ -1,0 +1,53 @@
+.menu
+    position: fixed
+    height: 60px
+    padding-top: 1.5%
+    width: 100%
+    z-index: 100
+    transition: 0.3s
+    margin: 0
+    padding-left: 0
+    display: flex
+    width: 40%
+    justify-content: space-between
+    li
+        list-style-type: none
+        font-size: 14px
+        text-transform: uppercase
+        font-family: $rob_mono
+        font-weight: 600
+        a
+            color: $colorText
+            text-decoration: none
+            cursor: pointer
+            transition: 0.2s
+            padding-right: 10px
+            letter-spacing: 0.5px
+            &:hover
+                transform: scale(1.1)
+.active-link
+    position: relative
+    &::after
+        content: ""
+        position: absolute
+        width: 7px
+        height: 2px
+        bottom: 0
+        right: 0px
+        background-color: #82cdcc
+.menu__2
+    background-color: rgba(172, 195, 139, 0.9)
+    transition: 0.3s
+@media (max-width: 480px)
+    .menu
+        padding-left: 0
+        height: 30px  
+        justify-content: space-between
+        width: 93%  
+        li
+            a
+                padding-right: 0 
+                            
+                
+            
+                
