@@ -1,0 +1,100 @@
+main
+    position: relative
+    width: 100%
+    height: 482px
+    z-index: 10
+    background-color: grey
+.profile
+    padding-top: 90px
+    &__name
+        margin-top: 40px
+        margin-bottom: 0
+        font-size: 44px
+        font-family: $rob_mono
+        color: $colorText
+    &__work, &__contacts
+        color: $colorText
+        margin-top: 8px
+        font-size: 16px  
+    &__img
+        width: 90%
+        border-radius: 5px  
+        img
+            width: 100%
+            border-radius: 5px
+            box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.6)
+            -webkit-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.6)
+            -moz-box-shadow: 4px 4px 9px 2px rgba(0,0,0,0.6)
+    &__contacts
+        margin-top: 30px
+        font-size: 16px 
+        table
+            border-spacing: 0px 17px
+            tr     
+                td
+                    &:nth-child(odd)
+                        text-transform: uppercase
+                        opacity: 0.5 
+                    &:nth-child(even)
+                        padding-left: 20px   
+.contact-icon 
+    opacity: 1 !important
+    padding-left: 0 !important
+    width: 50px !important
+    &s
+        width: 40px
+        height: 40px
+
+@media (max-width: 991px)
+    .profile
+        &__img
+            width: 100%
+        &__name
+            font-size: 40px     
+@media (max-width: 991px) 
+    menu
+        margin-top: 35px              
+    .profile
+        &__img
+            margin-top: 10px
+            height: 316px 
+        &__name
+            font-size: 34px
+            margin-top: 0px 
+        &__contacts
+            margin-top: 0px                                
+    .profile__contacts table
+        border-spacing: 0 15px
+@media (max-width: 576px)
+    menu 
+        ul 
+            li 
+                a
+                    font-size: 12px
+                    font-weight: 300
+    main
+        height: 100% 
+    .profile
+        text-align: center
+        &__name
+            font-size: 30px
+        &__img
+            img
+                display: block
+                width: 50%
+                margin: 0 auto
+        &__contacts
+            table
+                
+                margin: 0 auto        
+    .contact-icon
+        width: 35px !important
+        &s
+            width: 25px
+            height: 25px 
+@media (max-width: 480px) 
+    .profile  
+        padding-top: 50px
+        &__img
+            height: auto
+
