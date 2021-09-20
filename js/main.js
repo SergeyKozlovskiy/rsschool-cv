@@ -1,16 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  //menu bg
-  const dinamicBg = () => {
-    const menu = document.querySelector('menu');
-    let top = window.pageYOffset;
-    if(top !== 0){
-      menu.classList.add('menu__2');
-    }else if(top === 0){
-      menu.classList.remove('menu__2');
-    }
-    window.addEventListener('scroll', dinamicBg);
-    };
-  dinamicBg();
   //scroll
   const scroll = () => {   
   // собираем все якоря; устанавливаем время анимации и количество кадров
