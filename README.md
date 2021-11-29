@@ -1,1 +1,1 @@
-# https://SergeyKozlovskiy.github.io/rsschool-cv/
+# Deploy: https://SergeyKozlovskiy.github.io/rsschool-cv/
